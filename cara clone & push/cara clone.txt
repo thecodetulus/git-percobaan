@@ -1,0 +1,23 @@
+===cara clone & push repo biasa (blum gw coba)===
+- copy link repo
+- git clone (link repo) => ambil dulu reponya sama temenlu, apa updatean terakhir
+- cd nama_project
+- git remote -v => bisa fetch bisa push
+* Rubah file*
+- git add .
+- git commit -m "update menambahkan apa misalnya"
+- git push => untuk push
+
+===cara clone & push project laravel github (b dvce 1 akun)===
+- git clone link repo
+- dir
+- cd nama_project
+- code .
+- env.example coppy salin jadi .env
+- buat database laravel
+- composer install
+- npm install sudah (terinstall node js) ==>(kayanya gk pelu)
+- close env ketik di terminal php artisan key:generate
+- terminal untuk masukan tabel = php artisan migrate
+- php artisan db:seed
+- php artisan serve
